@@ -1,0 +1,11 @@
+@CliHang_HostAddress = http://localhost:5173
+
+GET {{CliHang_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{CliHang_HostAddress}}/todos/1
+Accept: application/json
+
+###
