@@ -16,4 +16,7 @@ builder.Services.AddSingleton<IMongoClient>(sp =>
     return new MongoClient(settings.ConnectionString);
 });
 
+builder.Services.AddScoped<MongoContext>();
+builder.Services.AddScoped<IRepJobsGraph, RepJobsGraph>();
+
 app.Run();
