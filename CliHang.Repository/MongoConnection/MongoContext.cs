@@ -13,5 +13,5 @@ public class MongoContext
         _database = client.GetDatabase(settings.Value.DatabaseName);
     }
     
-    public IMongoCollection<JobsGraph> JobsGraph => _database.GetCollection<JobsGraph>("jobGraph");
+    public IMongoCollection<Job> Job => _database.GetCollection<Job>("jobGraph");
 }

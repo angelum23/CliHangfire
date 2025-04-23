@@ -1,4 +1,6 @@
-﻿namespace CliHang.Repository;
+﻿using System.Text.Json.Serialization;
+
+namespace CliHang.Repository;
 
 public class MongoDbSettings
 {

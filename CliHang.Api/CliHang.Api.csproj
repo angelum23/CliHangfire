@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CliHang.Repository\CliHang.Repository.csproj" />
+      <ProjectReference Include="..\CliHang.Service\CliHang.Service.csproj" />
     </ItemGroup>
 
 </Project>

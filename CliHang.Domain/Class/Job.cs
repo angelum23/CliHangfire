@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace CliHang.Domain;
 
-public class JobsGraph
+public class Job
 {
     [BsonId]
     [BsonElement("_id")]

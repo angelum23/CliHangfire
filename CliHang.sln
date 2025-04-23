@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliHang.Repository", "CliHa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliHang.Domain", "CliHang.Domain\CliHang.Domain.csproj", "{88A12797-1903-4A9D-AB3F-BA7ECC045D95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliHang.Service", "CliHang.Service\CliHang.Service.csproj", "{B606B7A4-FC70-49A1-A912-DD6C8F6D3BFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{88A12797-1903-4A9D-AB3F-BA7ECC045D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A12797-1903-4A9D-AB3F-BA7ECC045D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A12797-1903-4A9D-AB3F-BA7ECC045D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B606B7A4-FC70-49A1-A912-DD6C8F6D3BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B606B7A4-FC70-49A1-A912-DD6C8F6D3BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B606B7A4-FC70-49A1-A912-DD6C8F6D3BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B606B7A4-FC70-49A1-A912-DD6C8F6D3BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
